@@ -53,6 +53,7 @@ if [ ! "$SKIP_PIPENV_INSTALL" ]; then
         fi
 
         export PIPENV_VERSION="2018.5.18"
+        export PIP_NO_BINARY="psycopg2"
 
         # Install pipenv.
         # Due to weird old pip behavior and pipenv behavior, pipenv upgrades pip
