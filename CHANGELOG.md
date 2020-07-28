@@ -2,7 +2,34 @@
 
 # Master
 
+
+# 173 (2020-07-21)
+
+- Python 3.8.5 is now available (CPython)
+
+# 172 (2020-07-17)
+
+- Python 3.8.4 is now available (CPython)
+
+# 171 (2020-07-07)
+
+- Python 3.6.11 and 3.7.8 are now available (CPython).
+
+# 170 (2020-05-19)
+
+- Python 2.7.18, 3.5.9, 3.7.7 and 3.8.3 are now available (CPython).
+- PyPy 2.7 and 3.6, version 7.3.1 are now available (Note: PyPy support is in beta)
+- Docs: Fix explanation of runtime.txt generation when using pipenv
+- Bugfix: Correctly detect Python version when using a `python_version` of `3.8` in `Pipfile.lock`
+
 --------------------------------------------------------------------------------
+
+# 169 (2020-04-22)
+
+- Add a Hatchet test for python 3.8.2
+- Set Code Owners to @heroku/langauges
+- Bugfix: Caching on subsequent redeploys
+- Update tests to support latest version of Python
 
 # 168 (2020-04-06)
 
