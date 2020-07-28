@@ -84,6 +84,9 @@ if [[ -f "$BUILD_DIR/Pipfile" ]]; then
     PIP_UPDATE="9.0.2"
 fi
 
+# force latest pip
+PIP_UPDATE="20.1.1"
+
 export DEFAULT_PYTHON_STACK PIP_UPDATE
 export PY37 PY36 PY35 PY27 PY34
 
