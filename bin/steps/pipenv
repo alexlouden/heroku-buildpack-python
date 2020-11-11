@@ -5,6 +5,7 @@
 # shellcheck source=bin/utils
 source "$BIN_DIR/utils"
 set -e
+set -x
 
 if [[ -f Pipfile.lock ]]; then
     if [[ -f .heroku/python/Pipfile.lock.sha256 ]]; then
