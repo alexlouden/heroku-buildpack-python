@@ -52,7 +52,7 @@ if [ ! "$SKIP_PIPENV_INSTALL" ]; then
             mcount "buildvar.SLUGIFY_USES_TEXT_UNIDECODE"
         fi
 
-        export PIPENV_VERSION="2018.5.18"
+        export PIPENV_VERSION="2020.6.2"
         export PIP_NO_BINARY="psycopg2"
 
         # Install pipenv.
